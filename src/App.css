@@ -1,0 +1,42 @@
+.container{
+  max-width: 400px;
+  min-height: 450px;
+  margin: 50px auto 0px auto;
+  background-color: aliceblue;
+  box-shadow:0 0 10px gray;
+  padding: 15px 20px;
+}
+
+.expense-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: indianred; 
+  box-shadow: 0 0 10px yellow;
+
+}
+.text-align{
+  text-align: center;
+}
+
+.transaction-list{
+  margin: 0;
+}
+.transaction-list>li{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  box-shadow: 0px 0px 5px indianred;
+  background-color: khaki;
+  padding: 10px 5px;
+}
+ul{
+  padding-left: 10px;
+}
+
+
+.transaction-form input{
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+}
